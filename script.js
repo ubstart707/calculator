@@ -60,7 +60,7 @@ class Calculator {
         const stringNumber = number.toString()
         const integerDigits = parseFloat(stringNumber.split('.')[0])
         const decimalDigits = stringNumber.split('.')[1]
-        const floatNumber = parseFloat(number)
+        const floatNumber = parseFloat(number)``
         let integerDisplay
         if (isNaN(integerDigits)) {
             integerDisplay = ''
